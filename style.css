@@ -1,0 +1,78 @@
+
+.header_div{
+    font-family: 'Akaya Kanadaka', cursive;
+    background:linear-gradient(coral 0%, chocolate 50%, brown 100%);
+    color: white;
+}
+body{
+    background-color: teal;
+}
+.header_div  img{
+    width: 100px;
+    height:100px;
+}
+
+.main_div{
+    background: linear-gradient(pink 0%, tomato 50%, red 100%);
+    padding: 100px;
+    margin-top: 15px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: purple;
+}
+
+.main_div label{
+    background-color:royalblue;
+    width: 310px;
+    color: white;
+    padding:10px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.main_div label:hover{
+    cursor: pointer;
+    background-color: rgb(107, 144, 255);
+    box-shadow: 5px 5px 25px ;
+
+}
+
+#camera, #output{
+    border: 3px dotted teal;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px rgb(251, 255, 0);
+}
+
+.main_div button{
+    width: 310px;
+    height: 40px;
+    box-shadow: 6px 6px 18px purple;
+    font-size: 150%;
+    font-weight: bolder;
+    
+}
+
+.footer_div{
+    margin-bottom: 50px;
+}
+
+.footer_div h4{
+    background-color: white;
+    padding: 5px;
+    box-shadow: 5px 5px 18px whitesmoke;
+    border-radius: 15px;
+}
+.footer_div img{
+    width: 70px;
+}
+.copy_right_footer{
+    line-height: 3;
+    text-align: center;
+    position: fixed;
+    color: grey;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
